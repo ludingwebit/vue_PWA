@@ -3,9 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import './registerServiceWorker'
 Vue.config.productionTip = false
-
+require('./assets/js/mainapp.js')
+require('./assets/css/app.css')
+require('./assets/css/mini-dark.min.css')
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

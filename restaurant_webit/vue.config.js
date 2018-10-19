@@ -12,6 +12,6 @@ module.exports = {
             swSrc: 'src/registerServiceWorker.js',
         },
 
-        lintOnSave: undefined
+        lintOnSave: true
     }
 }
